@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 22 low</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form id="table-form">
+    <label for="input-rows">Rows: </label>
+    <input id="input-rows" name="rows" type="number" min="1" pattern="[1-9]" title="Please, enter a number more than 0" required>
+    <label for="input-cols">Columns: </label>
+    <input id ="input-cols" name="cols" type="number" min="1" pattern="[1-9]" title="Please, enter a number more than 0" required>
+    <input type="submit" value="Run" >
+  </form>
+  <table id="changing-table"></table>
+
+</body>
+<script src="script.js"></script>
+</html>
